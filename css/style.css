@@ -85,17 +85,17 @@ a {
 ==================================================*/
 
 h1 {
-    color: #393939;
+    color: #ffffff;
     font-size: 60px;
     text-transform: uppercase;
 }
 
 h3 {
-    color: #393939;
+    color: #ffffff;
 }
 
 h5 {
-    color: #ffbf00;
+    color: #ffffff;
 }
 
 
@@ -221,7 +221,7 @@ h5 {
 }
 
 .box-header.menu-is-open {
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(0, 0, 0, 0.99);
 }
 
 .box-logo {
@@ -239,7 +239,7 @@ h5 {
 }
 
 .box-primary-nav-trigger .box-menu-text {
-    color: #393939;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 700;
     display: none;
@@ -256,7 +256,7 @@ h5 {
     transform: translateX(-50%) translateY(-50%);
     width: 18px;
     height: 2px;
-    background-color: #393939;
+    background-color: #fff;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     list-style: none;
@@ -268,7 +268,7 @@ h5 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #393939;
+    background-color: #fff;
     right: 0;
     -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
     -webkit-transition: top .3s, background-color 0s, -webkit-transform .3s;
@@ -336,7 +336,7 @@ h5 {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.96);
+    background: rgba(0, 0, 0, 0.99);
     z-index: 2;
     text-align: center;
     padding: 50px 0;
@@ -371,7 +371,7 @@ h5 {
     border-radius: 0.25em;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    color: #fff;
+    color: rgb(153, 29, 255);
     text-decoration: none;
     font-weight: bold;
 }
@@ -385,7 +385,7 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #ffbf00;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -891,8 +891,8 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    background: -webkit-linear-gradient( rgba(61, 61, 61, 0.8), rgba(22, 22, 22, 0.8)), url(../img/backgroundwelcome.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/backgroundwelcome.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -903,7 +903,7 @@ footer img {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #999;
+    color: rgb(255, 255, 255);
     line-height: 50px;
 }
 
@@ -911,16 +911,16 @@ footer img {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #777;
+    color: #654696;
 }
 
 .top-bar p a {
-    color: #777;
+    color: #654696;
 }
 
 .top-bar p a:hover,
 .top-bar p a:focus {
-    color: #555;
+    color: rgb(253, 48, 161)
     text-decoration: none;
 }
 
