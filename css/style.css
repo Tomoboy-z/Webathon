@@ -37,7 +37,8 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    background: #151515;
+    
 }
 
 .no-padding {
@@ -108,7 +109,7 @@ h5 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f5f5f5;
+    background-color: #000000;
     /* change if the mask should be a color other than white */
     z-index: 1000;
     /* makes sure it stays on top */
@@ -181,7 +182,7 @@ h5 {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(0, 0, 0, 0.95);
     height: 50px;
     width: 100%;
     z-index: 3;
@@ -208,7 +209,7 @@ h5 {
 .box-header.is-fixed {
     position: fixed;
     top: -80px;
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(0, 0, 0, 0.96);
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -447,6 +448,11 @@ b i:last-child {
     text-transform: uppercase;
     color: #999;
     line-height: 1.7
+}
+
+b {
+    color: #654696;
+    
 }
 
 
@@ -838,6 +844,12 @@ footer img {
     margin: 0 auto;
 }
 
+.game_div {
+    width: 100%;
+}
+.game {
+    width: 100%;
+}
 
 /* backto top
 ==================================================*/
@@ -1127,12 +1139,12 @@ textarea:focus {
     }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 570px) {
     .box-headline {
         font-size: 100px;
     }
     .box-intro h5 {
-        font-size: 12px;
+        font-size: 2px;
     }
     .box-primary-nav a {
         padding: 5px 1em;
@@ -1145,7 +1157,7 @@ textarea:focus {
         font-size: 23px;
     }
     .top-bar h1 {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 30px;
     }
     .portfolio .categories-grid .categories ul li {
@@ -1158,7 +1170,7 @@ textarea:focus {
         font-size: 80px;
     }
     .box-intro h5 {
-        font-size: 12px;
+        font-size: 8px;
     }
     .main-container {
         padding: 50px 0;
@@ -1167,7 +1179,7 @@ textarea:focus {
 
 @media only screen and (max-width: 420px) {
     .box-headline {
-        font-size: 50px;
+        font-size: 40px;
     }
     .box-intro h5 {
         font-size: 12px;
